@@ -1,0 +1,215 @@
+<html>
+    <head>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .content {
+            max-width: 700px;
+            margin: auto;
+            }
+            .rightText{
+                font-size: 10px;
+                color: gray;
+            }
+            td,tr
+            {
+                padding: 5px;
+
+            }
+            .button{
+                padding: 10px;
+                font-size:24px;
+                border: .5px,solid;
+                border-color: black;
+                background-color: greenyellow;
+            }
+            .header {
+                padding: 0px;
+                padding-bottom: 5px ;
+                text-align:left;
+                max-width: 900px;
+                 margin: auto;
+            }
+            hr{
+                height: 4px;
+                color: h=gray;
+                background-color: gray;
+
+            }
+        </style>
+    </head>
+    <body >
+        <div class="header">
+                    <a href="">Home</a><br>
+                    <img src="redifflogo1.gif">
+                    <hr>
+                </div>
+        <div class="content">
+            
+        <h2>Create a Rediffmail account</h2>
+        
+        <form>
+           <table >
+               <tr>
+                   <td>
+                       Full Name 
+                   </td>
+                   <td>
+                       : <input type="text" style="width:95%">
+                   </td>
+                   <td class="rightText">
+                        Enter your first name & last name <br>
+                        Eg. Sameer Bhagwat
+                   </td>
+               </tr>
+               <tr>
+                    <td>
+                        Choose a Rediffmail ID	
+                    </td>
+                    <td>
+                        : <input type="text" style="width:95%">
+                    </td>
+                    <td>
+                            @rediffmail.com
+                    </td>
+                </tr>
+                <tr>
+                        <td colspan="3" style="text-align:center;">
+                            <button> Check availability</button>
+                        </td>
+                </tr>
+                <tr >
+                        <td>
+                            Password
+                        </td>
+                        <td>
+                            : <input type="password" style="width:95%">
+                        </td>
+                        <td rowspan="2" class="rightText">
+                            Password: <br>
+                            • must contain 6-12 characters <br>
+                            • must contain both upper and lower case characters <br>
+                            • must contain numeric characters <br>
+                            • must contain special characters <br>
+                            • should not contain username or firstname or lastname <br>
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                            Retype password
+                        </td>
+                        <td>
+                            : <input type="password" style="width:95%">
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                            Alternate Email Address
+                        </td>
+                        <td>
+                            : <input type="text" style="width:95%">
+                        </td>
+                        <td class="rightText">
+                            If you forget your password,<br>
+                            we will send it to this account
+                        </td>
+                </tr>
+                <tr>
+                        <td colspan="3" style="text-align:center;">
+                            <input type="checkbox">	
+                            Click if you don't have an alternate ID
+                        </td>
+                        
+                </tr>
+                <tr>
+                        <td>
+                            Mobile No.
+                        </td>
+                        <td>
+                            : <select>
+                                    <option value ="+91">+91</option>
+                                    <option value ="+1">+1</option>
+                                </select><input type="text">
+                        </td>
+                        <td class="rightText">
+                                If you forget your password,<br>
+                                recover your password via text message.  
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                                Date of Birth
+                        </td>
+                        <td>
+                            : <select label ="Day">
+                                    <option value="" selected="">Day</option>
+                                    <option value ="1">1</option>
+                                    <option value ="2">2</option>
+                                </select>
+                                <select name="Month">
+                                    <option value="" selected="">Month</option>
+                                    <option value ="jan">jan</option>
+                                    <option value ="feb">feb</option>
+                                </select>
+                                <select name="Year">
+                                    <option value="" selected="">Year</option>
+                                    <option value ="2020">2020</option>
+                                    <option value ="2019">2019</option>
+                                </select>
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                                Gender
+                        </td>
+                        <td>
+                           :  <input type="radio" value="male"> <label for="male">Male</label>
+                           <input type="radio" value="female"> <label for="female">Female</label>
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                                I live in
+                        </td>
+                        <td>
+                           Country :<select name="Month" style="width:62%">
+                                <option value="" selected="">India</option>
+                            </select><br>
+                            City :<select name="Year" style="width:75%">
+                                <option value="" selected="">Select</option>
+                            </select>
+                        </td>
+                        
+                </tr>
+                <tr>
+                        <td colspan="3" style="padding-left:200px">
+                                <img src="tb_getimage.png" alt="img">
+                        </td>
+                        
+                </tr>
+                <tr>
+                        <td>
+                            Enter the text shown above
+                        </td>
+                        <td>
+                            : <input type="text" style="width:95%">
+                        </td>
+                        
+                </tr>
+                <tr>
+                        <td colspan="3" style="text-align:center;">
+                                <button class="button"> Create my account>></button>
+                        </td>
+                        
+                </tr>
+               
+           </table>
+        </form>
+        <div class="rightText">
+                By clicking on 'Create my account' above, you confirm that you accept the <a  href="">terms and conditions & privacy policy</a>
+    
+        </div>
+        </div>
+    </body>
+</html>
